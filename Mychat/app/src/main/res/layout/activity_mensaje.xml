@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.paulo.mychat.MensajeActivity">
+
+    <ListView
+        android:id="@+id/listaMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_mesajes"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_mensajes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mensaje" />
+
+    </android.support.design.widget.TextInputLayout>
+</RelativeLayout>
